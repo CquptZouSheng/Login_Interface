@@ -18,8 +18,6 @@ public class MainActivity extends  AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        SharedPreferences sp = getSharedPreferences("sdls",MODE_PRIVATE);
-        SharedPreferences.Editor localsp=sp.edit();
         button=(Button)findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
